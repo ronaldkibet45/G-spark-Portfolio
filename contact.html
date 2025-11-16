@@ -10,18 +10,32 @@
 
 <body>
     <!--navbar-->
-    <header class="navbar">
-        <div class="logo">G-Spark Studios</div>
-        <nav class="nav-links">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Our Services</a></li>
-                <li><a href="Portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html" class="active">Contact Us</a></li>
-            </ul>
-        </nav><a href="Contact.html" class="quote-btn">Get Quote</a>
-    </header>
+    <!-- header (paste into each page) -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-top">G-</span><span class="brand-bottom">Spark</span> <span class="brand-sub">Studios</span>
+    </a>
+
+    <!-- mobile toggle (checkbox) -->
+    <input id="nav-toggle" class="nav-toggle" type="checkbox" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+      <span></span>
+    </label>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <a href="contact.html" class="btn-quote">Get Quote</a>
+  </div>
+</header>
     <!--Hero Section-->
     <section class="service-hero">
         <div class="overlay">
@@ -115,5 +129,6 @@
     </footer>
 
 </body>
+
 
 </html>
